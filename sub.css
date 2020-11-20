@@ -1,0 +1,57 @@
+.text {
+  text-align: center;
+  font-size: 50px;
+}
+.bullets {
+  list-style-type: square;
+  border: 2px solid gray;
+  padding: 25px;
+  margin: 25px;
+
+}
+.image {
+  margin-left: 7px;
+}
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #eceeef;
+}
+.thead-inverse th {
+    color: #fff;
+    background-color: #373a3c;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+[data-tab-content] {
+  display: none;
+}
+.active[data-tab-content] {
+  display: block;
+}
+.tabs {
+  display:flex;
+  list-style-type:none;
+  margin: 0;
+  padding-top: 10px;
+  border-bottom: 1px solid black;
+}
+.tab {
+  cursor: pointer;
+  padding: 8px;
+  font-weight: bold;
+  color: blue;
+  margin-right: 5px;
+}
+.tab.active {
+  background-color: #CCC;
+}
+.tab:hover {
+  background-color: #AAA;
+}
+.mr-5{
+  padding: 15px;
+  font-size: 20px;
+}

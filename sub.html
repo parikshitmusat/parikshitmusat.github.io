@@ -1,0 +1,290 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="library.css">
+    <link rel="stylesheet" href="sub.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./vendor/@fortawesome/fontawesome-free/css/all.min.css" />
+
+    <script src="sub.js"defer></script>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">
+    <img src="a.jpg" class="rounded" width="200px" height="50px">
+  </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-item nav-link mx-4" href="team.html">Team</a>
+        <a class="nav-item nav-link mx-4" href="sub.html">Subsystems</a>
+        <a class="nav-item nav-link mx-4" href="library.html">Library</a>
+        <a class="nav-item nav-link mx-4" href="contact.html">Contact Us</a>
+      </div>
+    </div>
+  </nav>
+  <body>
+    <ul class="tabs">
+      <li data-tab-target="#ADCS" class="active tab">ADCS</li>
+      <li data-tab-target="#COMMS" class="tab">COMMS</li>
+      <li data-tab-target="#EPS" class="tab">EPS</li>
+      <li data-tab-target="#ODHS" class="tab">ODHS</li>
+      <li data-tab-target="#PAYLOAD" class="tab">PAYLOAD</li>
+      <li data-tab-target="#STMS" class="tab">STMS</li>
+    </ul>
+      <div class="tab-content">
+        <div id="ADCS" data-tab-content class="active">
+        <h1 class="text"> Attitude Determination and Control Subsystem</h1>
+        <section class="text-gray-700 body-font">
+
+<div class="flex flex-col sm:flex-row mt-10">
+        <div class="sm:w-1/4 text-center sm:pr-8 sm:py-8">
+
+          <img src="photographs/adcs1.jpg" class="image">
+
+        </div>
+        <div class="sm:w-3/4 sm:pl-8 sm:py-8 sm:border-l border-gray-300 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+          <p class="leading-relaxed text-lg mb-4">Attitude Determination and Control Subsystem or ADCS is responsible for the orientation and control of the satellite.
+<ul class="bullets"><li>
+It has to exercise control over the orientation of the satellite by having the required accuracy and meeting other constraints like power and computational complexity. This is necesssary to point the onboard payloads at the right direction, transmit the payload data over the ground station accurately and ensure a stable satellite.</li><li>
+The determination of current orientation is done with the help of sensors and algorithms and the control is done using the actuators.
+The determination of attitude is done with the help of suitable hardware from which data is fed into algorithms.</li><li>
+The on-board orbit propagation hardware and algorithms are used to propagate the GPS data to get the real time position and velocity of the Satellite.</li><li>
+The Control System then accepts the inputs from the estimation algorithms regarding the error in the orientation.</li><li>
+The Control System commands the actuators to perform accordingly to orient the satellite in the required orientation.</li><li>
+The stability is maintained and if the angular rates increase the actuators act again making the satellite stable.</li></ul>
+</p>
+
+          </div></div></div>
+  </div>
+      </div></div>
+</section>
+
+        <div id="COMMS" data-tab-content>
+        <h1 class="text"> Communications and Ground Station Subsystem</h1>
+        <section class="text-gray-700 body-font">
+
+<div class="flex flex-col sm:flex-row mt-10">
+        <div class="sm:w-1/4 text-center sm:pr-8 sm:py-8">
+
+          <img src="photographs/COMMS.png" class="image">
+        </div>
+        <div class="sm:w-3/4 sm:pl-8 sm:py-8 sm:border-l border-gray-300 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+          <p class="leading-relaxed text-lg mb-4">The Communications and Ground Station Subsystem or COMMS is responsible for the exchange of information to and fro from the satellite. There are three paths of communication that we facilitate.
+
+<ul class="bullets"><li>
+The beacon downlink, which carries the name, call sign and health-monitoring data of the satellite.</li><li>
+The uplink, which conveys all necessary telecommands to the satellite.</li><li>
+The payload downlink, which sends data from the satellite, namely thermal images captured by it.</li></ul>
+    The subsequent communication on-board the satellite is achieved by configuring transmitter and receiver ICs via the coding of microcontrollers. This also includes the communication between the PCBs on-board the satellite. This is achieved by various protocols that help in the transfer of data across the satellite. All such communication takes place in the amateur UHF and VHF bands.
+<br><br>
+For the purpose of establishing and maintaining communication with the satellite, we have the Parikshit Ground Station, or PAGOS, a fully functional ground station set up in MIT that establishes communication via two RF antenna, one for UHF band and the other for VHF frequency band. Besides this, the ground station is also capable of tracking and receiving the beacon of any currently operational satellite communicating in the amateur frequency bands.
+<br><br>
+The Parikshit satellite will be identified by its call sign transmitted in every beacon packet, which can be used to track the satellite once operational. The details about each communication link is listed below:
+          <table class="table">
+        <thead class="thead-inverse">
+          <tr>
+            <th>
+            </th>
+            <th>
+              Beacon
+            </th>
+            <th>
+              Uplink
+            </th>
+            <th>
+              Payload
+            </th>
+          </tr>
+        </thead>
+          <tbody><tr>
+            <th>
+              Frequency
+            </th>
+            <td>
+              145.89 MHz
+            </td>
+            <td>
+              145.89 MHz
+            </td>
+            <td>
+              437.8 MHz
+            </td>
+          </tr>
+          <tr>
+            <th>
+              Data Rate
+            </th>
+            <td>
+              12.5 bps
+            </td>
+            <td>
+              2400 bps
+            </td>
+            <td>
+              1200 bps
+            </td>
+          </tr>
+          <tr>
+            <th>
+              Modulation Protocols
+            </th>
+            <td>
+              OOK
+            </td>
+            <td>
+              2-FSK
+            </td>
+            <td>
+              2-FSK
+            </td>
+          </tr>
+        </tbody></table>
+</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+      </div></div>
+</section>
+<div id="EPS" data-tab-content>
+        <h1 class="text"> Electrical Power Subsystem</h1>
+        <section class="text-gray-700 body-font">
+
+<div class="flex flex-col sm:flex-row mt-10">
+        <div class="sm:w-1/4 text-center sm:pr-8 sm:py-8">
+          <img src="photographs/eagleUp_Battery-protect-board_board_top-Copy.jpg" class="image">
+        </div>
+        <div class="sm:w-3/4 sm:pl-8 sm:py-8 sm:border-l border-gray-300 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+          <p class="leading-relaxed text-lg mb-4">The Electrical Power Subsystem or EPS is responsible for harnessing, conditioning, storing and distributing power on-board the satellite. Parts include:
+<ul class="bullets"><li>
+Solar cells with 26.8% BOL efficiency</li><li>
+Battery management system</li><li>
+Bus voltage regulation</li><li>
+Protection against over-voltage, over-current and under-voltage faults</li><li>
+Protection against latch-ups</li></ul>
+          The Electrical Power Subsystem also deals with the design and soldering of the PCBs that we use for testing. All the PCBs that we use are designed and soldered in-house.
+</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+      </div></div>
+</section>
+ <div id="ODHS" data-tab-content>
+        <h1 class="text"> On Board Data Handling Subsystem</h1>
+        <section class="text-gray-700 body-font">
+
+<div class="flex flex-col sm:flex-row mt-10">
+        <div class="sm:w-1/4 text-center sm:pr-8 sm:py-8">
+          <img src="photographs/ODHS.jpg" class="image">
+        </div>
+        <div class="sm:w-3/4 sm:pl-8 sm:py-8 sm:border-l border-gray-300 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+          <p class="leading-relaxed text-lg mb-4">Any satellite system requires a large amount of data to be acquired and processed which is done by the On-board Data Handling Subsystem or ODHS. The subsystem deals with a variety of tasks that include working with both hardware as well as software. The subsystem also works on the various algorithms that are required to effectively process and use the acquired data and also ensure that the tasks of the satellite run in an ordered manner.
+            <br> <br>
+            Some of the important elements in the On-board Data Handling Subsystem include:
+<ul class="bullets"><li>
+Triple microcontroller based hardware architecture with the three microcontrollers spread across three PCBs.</li><li>
+The primary microcontroller, STM32F207IG, the secondary microcontroller,  MSP430F5438A and the tertiary microcontroller, STM32L431CC.</li><li>
+The required Hardware for memory storage on-board the satellite.</li><li>
+I2C, SPI and UART is used for communication between hardware.</li><li>
+Micrium OS III, a Real Time Operating System (RTOS), which is implemented on all the three microcontrollers.</li></ul>
+  The On-board Data Handling Subsystem has the following responsibilities:
+
+  <br> <br>
+  <ul class="bullets"><li>
+To establish a link between the three microcontrollers and also between the microcontrollers and the other required Hardware using the appropriate protocols.</li><li>
+To Program the Real Time Operating System to create the tasks for the satellite and also to execute the required tasks at the appropriate time.</li><li>
+Monitoring the health of the satellite continuously using the Beacon.</li>
+</ul>
+  The subsystem makes sure that all parts of the satellite work together faultlessly and also ensures that the satellite is able to sustain itself throughout its lifetime without any major external inputs.
+</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+      </div></div>
+</section>
+ <div id="PAYLOAD" data-tab-content>
+        <h1 class="text">Payload Subsystem</h1>
+        <section class="text-gray-700 body-font">
+
+<div class="flex flex-col sm:flex-row mt-10">
+        <div class="sm:w-1/4 text-center sm:pr-8 sm:py-8">
+          <img src="photographs/payload.jpg" class="image">
+        </div>
+        <div class="sm:w-3/4 sm:pl-8 sm:py-8 sm:border-l border-gray-300 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+          <p class="leading-relaxed text-lg mb-4">For a satellite, payload simply means the mission of the satellite. Parikshit has two payloads:
+<ul class="bullets">
+  Thermal infrared camera, that will take thermal infrared images of the Indian subcontinent, and monitor: <br><br>
+  <li>
+Urban Heat Island (UHI), it is a city or metropolitan area that is significantly warmer than its surrounding rural areas due to human activities.</li><li>
+Ocean Monitoring, variation in sea surface temperatures and cyclone monitoring.</li><li>
+Cloud Monitoring. The main aim here is to obtain the thermal distribution of the clouds and then differentiate them based on the distribution and help us understand about effects of cloud on climate.</li></ul>
+          <br>
+          An Electrodynamic Tether, will be used for deorbiting the satellite after its life (expected to be 6 months). We have collaborated with an Australian company, Saber Astronautics. This is an innovative payload, as this has never been used before for deorbiting of nano-satellites. This is one of our missions we have undertaken to make sure that the atmosphere of Earth is not riddled with our space debris. For more information on the Electrodynamic Tether and the way it works, contact Parikshit.
+</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+      </div></div>
+</section>
+<div id="STMS" data-tab-content>
+        <h1 class="text"> Structures, Thermal and Mechanisms Subsystem</h1>
+        <section class="text-gray-700 body-font">
+
+<div class="flex flex-col sm:flex-row mt-10">
+        <div class="sm:w-1/4 text-center sm:pr-8 sm:py-8">
+          <img src="photographs/stms.jpg" class="image">
+        </div>
+        <div class="sm:w-3/4 sm:pl-8 sm:py-8 sm:border-l border-gray-300 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+          <p class="leading-relaxed text-lg mb-4">The structures, thermal and mechanisms subsystem or STMS is responsible for designing, fabricating and assembling the final structure of the satellite. While doing so, the subsystem ensures that the structure can withstand all launch loads and vibrations, as well as exposure to space radiation during the life of the mission. The primary objectives of the subsystem are:
+            <br>
+<ul class="bullets"><li>
+Design the satellite keeping in mind the 2U nanosatellite constraints and ensuring minimal wastage of available space</li><li>
+To provide a structure that can endure the high accelerations, loads and vibrations that manifest during launch.</li><li>
+To integrate all components of other subsystems, warranting smooth interfacing between them.</li></ul>
+          The thermals division of the STM subsystem is in charge of designing the thermal layout of the satellite. This constitutes:
+          <br>
+  <ul class="bullets"><li>
+Protecting the sensitive internal components of the satellite from harmful space radiation and environment</li><li>
+Placement and usage of thermal control elements – active, passive or both – to provide an optimum thermal circuit in order to limit internal temperatures and fluxes within the operating and survival ranges of each sensitive component</li></ul>
+</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+      </div></div>
+</section>
+
+</body>
+<div class="footer">
+            <footer class="footer-list lg-4 md-12">
+              <span style="font-size: 30px; color: black;">
+                <a href="https://www.facebook.com/parikshit.satellite/"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://twitter.com/parikshit_mu?lang=en"><i class="fab fa-twitter-square"></i></a>
+                <a href="https://www.instagram.com/parikshitsatellite/?igshid=10i3rdj6q0h1j"><i class="fab fa-instagram"></i></a>
+                <a href="https://in.linkedin.com/company/parikshit-student-satellite"><i class="fab fa-linkedin"></i></a>
+              </span>
+                <p style="text-align: center; font-size: 15px">parikshitteam@2020 All copyrights reserved</p>
+            </footer>
+          </div>
+</html>

@@ -1,0 +1,61 @@
+.carousel-item {
+  height: 358px;
+  text-align: center;
+}
+.photohead {
+  text-align: center;
+  font-family: Helvetica;
+  color: black;
+  width: 50%;
+}
+.photo_landing {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  width: 120%;
+  height: 600px;
+  top: 0;
+  left: 0;
+}
+.image2 {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+.text1 {
+  position: absolute;
+  top: 140px;
+  left: 75px;
+}
+.text2 {
+  position: absolute;
+  bottom: 75px;
+  /* left: 75px; */
+}
+.text3 {
+  position: absolute;
+  bottom: 30px;
+  right: 50px;
+}
+.carousel-caption{
+      background-color: #282828;
+      opacity: 0.75;
+}
+@media(max-width: 768px){
+.cor1 {
+  font-size: 14px;
+}
+}
+#carouselExampleIndicators{
+  width: 50%;
+  float: left;
+  padding: 20px;
+}
+.content1 {
+  border-width: 5px;
+  border-style: ridge;
+  border-color: gray;
+}
